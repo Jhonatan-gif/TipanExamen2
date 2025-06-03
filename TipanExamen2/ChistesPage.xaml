@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipanExamen2.ChistesPage"
+             Title="Chistes">
+
+    <AbsoluteLayout>
+        <Label x:Name="ChisteLabel"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,0.9,200"
+               AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontSize="20"
+               Text="Cargando chiste..." /> 
+
+
+        <Button Text="Otro chiste"
+                AbsoluteLayout.LayoutBounds="0.5,1,0.9,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                Clicked="OnOtroChisteClicked" />
+    </AbsoluteLayout>
+</ContentPage>
